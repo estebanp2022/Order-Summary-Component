@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1440' height='437'%3E%3Cpath fill='%23D6E1FF' fill-rule='evenodd' d='M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  height: 700px;
+  width: 420px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 20px 25px hsl(224, 80%, 84%);
+}
+
+.top-section {
+  height: 245px;
+}
+
+.main-img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.bottom-section {
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h1,
+.annual-plan {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+p,
+.price,
+.cancel-link {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+p {
+  padding: 0 20px;
+  margin-top: 0;
+  line-height: 1.9;
+}
+
+.plan-container {
+  background-color: hsl(225, 100%, 98%);
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+}
+
+.price {
+  padding-top: 4px;
+}
+
+.change-link {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+.cancel-link {
+  font-weight: 700;
+}
+
+.payment-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  text-decoration: none;
+  padding: 15px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px hsl(245, 95%, 76%);
+}
+
+.change-link:hover,
+.cancel-link:hover,
+.payment-btn:hover {
+  cursor: pointer;
+}
+
+.payment-btn:hover {
+  background-color: hsl(245, 76%, 68%);
+}
+
+.change-link:hover {
+  text-decoration: none;
+  color: hsl(245, 76%, 68%);
+}
+
+.cancel-link:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 1rem;
+  }
+  .container {
+    width: 340px;
+    height: 600px;
+  }
+
+  .top-section {
+    height: 180px;
+  }
+
+  .main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .bottom-section {
+    height: 420px;
+    padding: 25px;
+  }
+
+  p {
+    padding: 3.5px;
+  }
+
+  .plan {
+    padding: 0;
+  }
+
+  .plan-container {
+  }
+
+  .payment-btn {
+    padding: 15px 0;
+  }
+}
