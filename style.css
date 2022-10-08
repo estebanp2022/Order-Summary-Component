@@ -20,8 +20,8 @@ body {
 .container {
   text-align: center;
   margin: 0 auto;
-  height: 700px;
-  width: 420px;
+  height: 680px;
+  width: 450px;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .top-section {
-  height: 245px;
+  height: 235px;
 }
 
 .main-img {
@@ -42,14 +42,14 @@ body {
 }
 
 .bottom-section {
-  height: 455px;
+  height: 445px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding-top: 10px;
   padding-bottom: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 h1,
@@ -89,7 +89,7 @@ p {
 .plan {
   display: flex;
   flex-direction: column;
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 .price {
@@ -112,7 +112,7 @@ p {
   padding: 15px 30px;
   margin: 20px 0;
   border-radius: 10px;
-  box-shadow: 0 6px 10px hsl(245, 95%, 76%);
+  box-shadow: 0 16px 20px hsla(245, 95%, 76%, 0.503);
 }
 
 .change-link:hover,
