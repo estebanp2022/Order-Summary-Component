@@ -169,5 +169,49 @@ p {
 
   .bottom-section {
     height: 477px;
+    padding: 2.8125em 3em 3em;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 1em;
+  }
+
+  p,
+  .plan {
+    font-size: 1em;
+    margin: 0 0 1.25em;
+  }
+
+  .plan-container {
+    width: 354px;
+    height: 98px;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+  }
+
+  .plan-logo {
+    margin-left: 1.5em;
+  }
+
+  .plan {
+    margin-left: 1.25em;
+    margin-right: 5.875em;
+    margin-bottom: 0;
+  }
+
+  .annual-plan {
+    margin-bottom: 0.375em;
+  }
+
+  .change-link {
+    font-size: 0.875rem;
+  }
+
+  .payment-btn {
+    width: 354px;
+    height: 50px;
+    margin-bottom: 2em;
   }
 }
